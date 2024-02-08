@@ -2,20 +2,24 @@
   // These tasks will run in order when initializing your CodeSandbox project.
   "setupTasks": [
     {
-      "command": "cd  server",
-      "name": "n"
+      "name": "n",
+      "command": "cd  server"
+    },
+    {
+      "name": "n",
+      "command": "npm install"
+    },
+    {
+      "command": "cd ..",
+      "name": "c"
+    },
+    {
+      "name": "c",
+      "command": "cd client"
     },
     {
       "command": "npm install",
       "name": "n"
-    },
-    {
-      "command": "cd client",
-      "name": "c"
-    },
-    {
-      "command": "npm i ",
-      "name": "npm i "
     }
   ],
 
